@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,73,1) 0%, rgba(61,101,161,1) 38%, rgba(0,212,255,1) 100%);
+}
+.container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+#wrapper{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(119,247,109,1) 0%, rgba(62,111,186,1) 87%, rgba(24,177,208,1) 100%);
+    border: 3px solid gainsboro;
+    padding: 15px;
+    color: white;
+
+}
+.container span{
+    margin-left: 10px;
+}
+#ampm{
+    align-items: end;
+    font-size: 3rem;
+}
+.roundclock{
+    display: flex;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(119,247,109,1) 0%, rgba(62,111,186,1) 87%, rgba(24,177,208,1) 100%);
+border-radius: 50%;
+}
+.roundclock p{
+    font-size: 20px;
+    position: absolute;
+}
